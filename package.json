@@ -1,0 +1,44 @@
+{
+  "name": "lead-management-backend",
+  "version": "1.0.0",
+  "description": "Lead Management System backend powered by Express, PostgreSQL, and Prisma",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js",
+    "prisma:generate": "prisma generate",
+    "prisma:push": "prisma db push",
+    "prisma:studio": "prisma studio",
+    "db:seed": "node prisma/seed.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "keywords": [
+    "crm",
+    "lead-management",
+    "express",
+    "postgresql",
+    "prisma"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.22.0",
+    "bcryptjs": "^3.0.3",
+    "connect-timeout": "^1.9.1",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.5.2",
+    "express-sanitizer": "^1.0.6",
+    "helmet": "^8.2.0",
+    "html-entities": "^2.6.0",
+    "joi": "^18.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "multer": "^2.1.1",
+    "sanitize-html": "^2.17.5"
+  },
+  "type": "module",
+  "devDependencies": {
+    "prisma": "^5.22.0"
+  }
+}

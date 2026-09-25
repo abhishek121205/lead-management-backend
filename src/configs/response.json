@@ -1,0 +1,31 @@
+{
+  "100": "Something went wrong. Please try again.",
+  "101": "Validation failed.",
+  "102": "Unauthorized access.",
+  "103": "Forbidden. You do not have permission.",
+  "104": "File size exceeds limit.",
+  "105": "Invalid file type.",
+
+  "200": "User registered successfully.",
+  "201": "User updated successfully.",
+  "202": "User profile fetched successfully.",
+  "204": "User not found.",
+  "220": "Login successful.",
+  "221": "Invalid email or password.",
+  "222": "Account is deactivated.",
+  "223": "Token refreshed successfully.",
+  "224": "Logged out successfully.",
+  "225": "Invalid or expired refresh token.",
+  "250": "Email already registered.",
+
+  "300": "Lead created successfully.",
+  "301": "Lead updated successfully.",
+  "302": "Lead fetched successfully.",
+  "303": "Leads fetched successfully.",
+  "304": "Lead deleted successfully.",
+  "305": "Lead not found.",
+  "306": "Lead ID is required.",
+  "307": "Lead stage updated successfully.",
+  "308": "Dashboard statistics fetched successfully.",
+  "309": "Invalid lead stage."
+}
